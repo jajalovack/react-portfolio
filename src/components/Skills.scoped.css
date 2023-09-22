@@ -1,0 +1,51 @@
+section
+{
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: #a9eb99;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+h1
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.skillLeft, .skillRight
+{
+    display: flex;
+    padding: 20px;
+}
+
+.skillLeft > div, .skillRight > div
+{
+    padding: 20px;
+}
+
+.skillLeft
+{
+    background-color: #a1db9c;
+    border-radius: 20px 20px 0 0;
+}
+
+.skillRight
+{
+    background-color: #5f8a5b;
+    border-radius: 0 0 20px 20px;
+    color: white;
+}
+
+.skillText
+{
+    width: 40%;
+}
+
+img
+{
+    width: 500px;
+}
